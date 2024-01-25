@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="79d224b9-a1cd-4a3a-aaa3-6d459013699e" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_demo/src/main/java/com/gth/MybatisDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_demo/src/main/java/com/gth/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_demo/src/main/resources/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_demo/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_demo/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_login/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_login/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_login/src/main/java/com/gth/test_springboot/TestSpringbootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_login/src/main/java/com/gth/test_springboot/controller/RequestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_login/src/main/java/com/gth/test_springboot/controller/ResponseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_login/src/main/java/com/gth/test_springboot/controller/helloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_login/src/main/java/com/gth/test_springboot/controller/jdbcController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_login/src/main/java/com/gth/test_springboot/pojo/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_login/src/main/java/com/gth/test_springboot/pojo/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_login/src/main/java/com/gth/test_springboot/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_login/src/main/java/com/gth/test_springboot/utils/XmlParserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_login/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_login/src/test/java/com/gth/test_springboot/TestSpringbootApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis/src/main/java/com/gth/springboot_mybatis/SpringbootMybatisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis/src/main/java/com/gth/springboot_mybatis/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis/src/main/java/com/gth/springboot_mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis/src/main/java/com/gth/springboot_mybatis/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis/src/main/java/com/gth/springboot_mybatis/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis/src/main/java/com/gth/springboot_mybatis/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis/src/test/java/com/gth/springboot_mybatis/SpringbootMybatisApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis_crud/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis_crud/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis_crud/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis_crud/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis_crud/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis_crud/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis_crud/src/main/java/com/gth/springboot_mybatis_crud/SpringbootMybatisCrudApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis_crud/src/main/java/com/gth/springboot_mybatis_crud/mapper/EmpMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis_crud/src/main/java/com/gth/springboot_mybatis_crud/pojo/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis_crud/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis_crud/src/main/resources/com/gth/springboot_mybatis_crud/mapper/EmpMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_mybatis_crud/src/test/java/com/gth/springboot_mybatis_crud/SpringbootMybatisCrudApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/src/main/java/com/gth/SpringbootWebTliasManagementApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/src/main/java/com/gth/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/src/main/java/com/gth/controller/EmpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/src/main/java/com/gth/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/src/main/java/com/gth/mapper/EmpMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/src/main/java/com/gth/pojo/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/src/main/java/com/gth/pojo/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/src/main/java/com/gth/pojo/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/src/main/java/com/gth/pojo/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/src/main/java/com/gth/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/src/main/java/com/gth/service/EmpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/src/main/java/com/gth/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/src/main/java/com/gth/service/impl/EmpServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/src/main/resources/com/gth/mapper/EmpMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/src/test/java/com/gth/SpringbootWebTliasManagementApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2b8NARRQsNpwz9HigbBInxmENY1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;HTTP 请求.SpringbootWebTliasManagementApplication | #1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringbootMybatisCrudApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringbootMybatisCrudApplicationTests.testDelete.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringbootMybatisCrudApplicationTests.testDeleteByIds.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringbootMybatisCrudApplicationTests.testGetById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringbootMybatisCrudApplicationTests.testInsert.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringbootMybatisCrudApplicationTests.testList.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringbootMybatisCrudApplicationTests.testUpdate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringbootMybatisCrudApplicationTests.testUpdate_2.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.SpringbootMybatisApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SpringbootWebTliasManagementApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SpringbootmybatisApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TestSpringbootApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TestSpringbootApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gth/Documents/springboot_demo/springbootmybatis/src/main/java/com/gth/springbootmybatis&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/gth/Documents/springboot_demo/mybatis_demo_/src/main/java/com/gth/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.MybatisDemo.executor&quot;: &quot;Run&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springbootmybatis/src/main/java/com/gth/springbootmybatis" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gth.pojo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootWebTliasManagementApplication">
+    <configuration name="SpringbootWebTliasManagementApplication | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/SpringbootWebTliasManagementApplication.http" requestIdentifier="#1" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringbootMybatisCrudApplicationTests.testDeleteByIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_mybatis_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gth.springboot_mybatis_crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gth.springboot_mybatis_crud" />
+      <option name="MAIN_CLASS_NAME" value="com.gth.springboot_mybatis_crud.SpringbootMybatisCrudApplicationTests" />
+      <option name="METHOD_NAME" value="testDeleteByIds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMybatisCrudApplicationTests.testGetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_mybatis_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gth.springboot_mybatis_crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gth.springboot_mybatis_crud" />
+      <option name="MAIN_CLASS_NAME" value="com.gth.springboot_mybatis_crud.SpringbootMybatisCrudApplicationTests" />
+      <option name="METHOD_NAME" value="testGetById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMybatisCrudApplicationTests.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_mybatis_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gth.springboot_mybatis_crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gth.springboot_mybatis_crud" />
+      <option name="MAIN_CLASS_NAME" value="com.gth.springboot_mybatis_crud.SpringbootMybatisCrudApplicationTests" />
+      <option name="METHOD_NAME" value="testList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMybatisCrudApplicationTests.testUpdate_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_mybatis_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gth.springboot_mybatis_crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gth.springboot_mybatis_crud" />
+      <option name="MAIN_CLASS_NAME" value="com.gth.springboot_mybatis_crud.SpringbootMybatisCrudApplicationTests" />
+      <option name="METHOD_NAME" value="testUpdate_2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot_mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gth.springboot_mybatis.SpringbootMybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMybatisCrudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot_mybatis_crud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gth.springboot_mybatis_crud.SpringbootMybatisCrudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootWebTliasManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot_web_tlias_management" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gth.SpringbootWebTliasManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="test_springboot_login" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gth.test_springboot.TestSpringbootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP 请求.SpringbootWebTliasManagementApplication | #1" />
+        <item itemvalue="JUnit.SpringbootMybatisCrudApplicationTests.testList" />
+        <item itemvalue="JUnit.SpringbootMybatisCrudApplicationTests.testDeleteByIds" />
+        <item itemvalue="JUnit.SpringbootMybatisCrudApplicationTests.testUpdate_2" />
+        <item itemvalue="JUnit.SpringbootMybatisCrudApplicationTests.testGetById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-203781b8" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="79d224b9-a1cd-4a3a-aaa3-6d459013699e" name="更改" comment="" />
+      <created>1705592603886</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705592603886</updated>
+      <workItem from="1705592604956" duration="2110000" />
+      <workItem from="1705632203058" duration="6630000" />
+      <workItem from="1705646212079" duration="3608000" />
+      <workItem from="1705650616187" duration="820000" />
+      <workItem from="1705651469299" duration="21182000" />
+      <workItem from="1705911565226" duration="2143000" />
+      <workItem from="1705994923571" duration="30653000" />
+      <workItem from="1706167907437" duration="9191000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis_demo/src/main/java/com/gth/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

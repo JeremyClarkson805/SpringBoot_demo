@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<!--
+namespace:名称空间
+id:是该条sql语句的唯一标识
+-->
+<mapper namespace="test">
+    <select id="selectALL" resultType="com.gth.pojo.User">
+        select * from user;
+    </select>
+</mapper>
