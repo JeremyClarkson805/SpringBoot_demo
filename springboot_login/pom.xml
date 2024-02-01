@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.gth</groupId>
-    <artifactId>test_springboot_login</artifactId>
+    <artifactId>springboot_login</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>test_springboot</name>
     <description>test_springboot</description>

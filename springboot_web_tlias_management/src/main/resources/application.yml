@@ -1,0 +1,19 @@
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/mybatis
+#    username: root
+#    password: Tian18922078980
+#  servlet:
+#    multipart:
+#      max-file-size: 10MB #单个上传文件最大大小
+#      max-request-size: 100MB #单次上传文件最大大小
+#  mybatis:
+#    configuration:
+#      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #mybatis日志
+#      map-underscore-to-camel-case: true  #驼峰命名自动映射
+##  pagehelper:
+##    helperDialect: mysql
+##    reasonable: true
+##    support-methods-arguments: true
+##    params: count=countSql
