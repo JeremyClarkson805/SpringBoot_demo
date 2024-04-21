@@ -13,15 +13,11 @@
         <option value="$PROJECT_DIR$/springboot_hello/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_mybatis_crud/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_web_tlias_management/pom.xml" />
+        <option value="$PROJECT_DIR$/reggie/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_plus_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/booksManager/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/springboot_hello/pom.xml" />
-        <option value="$PROJECT_DIR$/../test_springboot/pom.xml" />
-      </set>
-    </option>
-    <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
