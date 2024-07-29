@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/reggie/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis_plus_demo/pom.xml" />
         <option value="$PROJECT_DIR$/booksManager/pom.xml" />
+        <option value="$PROJECT_DIR$/test_token/pom.xml" />
       </list>
     </option>
   </component>

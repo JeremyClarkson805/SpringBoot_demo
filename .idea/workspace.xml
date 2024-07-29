@@ -5,334 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79d224b9-a1cd-4a3a-aaa3-6d459013699e" name="更改" comment="图书管理系统，缺过滤器未完成">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_demo/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_demo/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_demo/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_demo/css/news.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_demo/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_demo/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_demo/icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_demo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_demo/jw_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_demo/video/video_1.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_demo/新浪.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/BooksManagerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/controller/ReaderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/mapper/BookMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/mapper/ReaderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/PageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/ReaderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/impl/ReaderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/com/gth/booksmanager/mapper/BookMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/BooksManagerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_demo/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_demo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_demo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_demo/src/main/java/com/gth/mybatis_plus_demo/MybatisPlusDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_demo/src/main/java/com/gth/mybatis_plus_demo/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_demo/src/main/java/com/gth/mybatis_plus_demo/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_demo/src/test/java/com/gth/mybatis_plus_demo/MybatisPlusDemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_demo/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_demo/target/classes/com/gth/mybatis_plus_demo/MybatisPlusDemoApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_demo/target/classes/com/gth/mybatis_plus_demo/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_demo/target/classes/com/gth/mybatis_plus_demo/pojo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_plus_demo/target/test-classes/com/gth/mybatis_plus_demo/MybatisPlusDemoApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/java/com/gth/reggie/ReggieApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/java/com/gth/reggie/common/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/java/com/gth/reggie/common/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/java/com/gth/reggie/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/java/com/gth/reggie/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/java/com/gth/reggie/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/java/com/gth/reggie/filter/LoginCheckFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/java/com/gth/reggie/mapper/EmployeeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/java/com/gth/reggie/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/java/com/gth/reggie/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/api/category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/api/combo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/api/food.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/api/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/api/member.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/api/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/404-images/404-cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/404-images/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/icons/btn_back@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/icons/btn_clean@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/icons/btn_close@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/icons/icon_index.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/icons/icon_upload@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/icons/jine_m-2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/icons/renshu@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/icons/xiangmujine@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/img_brand01@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/img_denglu_bj.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/login/login-l.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/login/login-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/login/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/images/noImg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/js/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/js/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/page/category/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/page/combo/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/page/combo/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/page/food/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/page/food/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/page/login/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/page/member/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/page/member/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/page/order/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/plugins/axios/axios.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/plugins/element-ui/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/plugins/element-ui/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/plugins/element-ui/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/plugins/element-ui/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/plugins/vue/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/icon/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/icon/demo_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/icon/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/icon/iconfont.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/icon/iconfont.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/icon/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/icon/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/icon/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/backend/styles/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/api/address.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/api/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/api/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/api/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/fonts/DIN-Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/fonts/DIN-Medium.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/fonts/PingFangSC-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/fonts/PingFangSC-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/fonts/PingFangSC-Semibold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/cart_active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/checked_false.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/checked_true.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/demo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/demo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/demo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/demo4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/edit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/favico.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/headPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/location.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/locations.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/mainBg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/money.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/noImg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/no_order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/no_wifi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/orders.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/subtract.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/time.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/images/women.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/js/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/js/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/js/vant.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/page/add-order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/page/address-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/page/address.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/page/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/page/no-wify.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/page/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/page/pay-success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/page/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/add-order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/address-edit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/address.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/no-wify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/pay-success.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/main/resources/front/styles/vant.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/src/test/java/com/gth/reggie/ReggieApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/api/category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/api/combo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/api/food.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/api/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/api/member.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/api/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/images/404-images/404-cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/images/404-images/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/images/icons/btn_back@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/images/icons/btn_clean@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/images/icons/btn_close@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/images/icons/icon_index.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/images/icons/icon_upload@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/images/icons/jine_m-2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/images/icons/renshu@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/images/icons/xiangmujine@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/images/img_brand01@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/images/img_denglu_bj.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/images/login/login-l.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/images/login/login-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/images/login/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/images/noImg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/js/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/js/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/page/category/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/page/combo/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/page/combo/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/page/food/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/page/food/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/page/login/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/page/member/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/page/member/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/page/order/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/plugins/axios/axios.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/plugins/element-ui/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/plugins/element-ui/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/plugins/element-ui/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/plugins/element-ui/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/plugins/vue/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/styles/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/styles/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/styles/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/styles/icon/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/styles/icon/demo_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/styles/icon/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/styles/icon/iconfont.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/styles/icon/iconfont.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/styles/icon/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/styles/icon/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/styles/icon/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/styles/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/styles/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/backend/styles/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/com/gth/reggie/ReggieApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/com/gth/reggie/common/GlobalExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/com/gth/reggie/common/R.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/com/gth/reggie/config/WebMvcConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/com/gth/reggie/controller/EmployeeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/com/gth/reggie/entity/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/com/gth/reggie/filter/LoginCheckFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/com/gth/reggie/mapper/EmployeeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/com/gth/reggie/service/EmployeeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/com/gth/reggie/service/impl/EmployeeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/api/address.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/api/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/api/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/api/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/fonts/DIN-Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/fonts/DIN-Medium.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/fonts/PingFangSC-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/fonts/PingFangSC-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/fonts/PingFangSC-Semibold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/cart_active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/checked_false.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/checked_true.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/demo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/demo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/demo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/demo4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/edit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/favico.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/headPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/location.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/locations.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/mainBg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/money.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/noImg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/no_order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/no_wifi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/orders.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/subtract.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/time.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/images/women.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/js/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/js/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/js/vant.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/page/add-order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/page/address-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/page/address.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/page/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/page/no-wify.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/page/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/page/pay-success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/page/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/styles/add-order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/styles/address-edit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/styles/address.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/styles/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/styles/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/styles/no-wify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/styles/order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/styles/pay-success.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/styles/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reggie/target/classes/front/styles/vant.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/common/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/common/IsbnService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/mapper/InventoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/ExcelData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/impl/InventoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/com/gth/booksmanager/mapper/InventoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/com/gth/booksmanager/mapper/ReaderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/image/5b436c35-839d-4fc9-a7f6-640177c80e89.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/image/b6a50d24-e2f2-4333-9f1c-4f9b3d4d32a9.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/image/c94776a8-b57e-4849-903e-d45e542e397c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/image/dc06b626-296e-4cdb-9828-ff54ac7799ba.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/static/633e6df1-43c3-405a-9305-2fc9ee3cbc6a.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/static/f97af40d-4b66-45b3-9cda-8f88e80e5d47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/static/testExcel.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/GetBookInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/TestEasyExcel_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/TestExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/TestLendBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/TestToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/TestVideoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/testUserInfo.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/testUserInfo.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/src/test/java/com/gth/testToken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_login/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_login/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksManager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/BooksManagerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/BooksManagerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/mapper/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/mapper/BookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/mapper/ReaderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/mapper/ReaderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/ReaderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/ReaderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/impl/ReaderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/impl/ReaderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksManager/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksManager/src/main/resources/com/gth/booksmanager/mapper/BookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/resources/com/gth/booksmanager/mapper/BookMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/BooksManagerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/BooksManagerApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -351,6 +72,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JeremyClarkson805&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JeremyClarkson805/SpringBoot_demo.git&quot;,
+    &quot;accountId&quot;: &quot;e34aa399-596b-4bc2-a9cb-ea4e2accb193&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/IllegalArgumentException.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -365,54 +105,89 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;HTTP 请求.SpringbootWebTliasManagementApplication | #1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringbootMybatisCrudApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringbootMybatisCrudApplicationTests.testDelete.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringbootMybatisCrudApplicationTests.testDeleteByIds.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringbootMybatisCrudApplicationTests.testGetById.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringbootMybatisCrudApplicationTests.testInsert.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringbootMybatisCrudApplicationTests.testList.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringbootMybatisCrudApplicationTests.testUpdate.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringbootMybatisCrudApplicationTests.testUpdate_2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringbootWebTliasManagementApplicationTests.testGenJwt.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringbootWebTliasManagementApplicationTests.testParseJwt.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringbootWebTliasManagementApplicationTests.testUuid.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.SpringbootMybatisApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.SpringbootWebTliasManagementApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.SpringbootmybatisApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.TestSpringbootApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.TestSpringbootApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/gth/Documents/springboot_demo/springboot_web_tlias_management/src/main/java/com/gth/utils&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/gth/Documents/springboot_demo/mybatis_demo_/src/main/java/com/gth/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.Demo.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.MybatisDemo.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.SpringbootWebTliasManagementApplication.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "HTTP 请求.SpringbootWebTliasManagementApplication | #1.executor": "Run",
+    "HTTP 请求.generated-requests | #3.executor": "Run",
+    "JUnit.BookInfoTest.executor": "Run",
+    "JUnit.BookInfoTest.test_1.executor": "Run",
+    "JUnit.BookInfoTest.test_2 (1).executor": "Run",
+    "JUnit.BookInfoTest.test_2.executor": "Run",
+    "JUnit.BookInfoTest.test_3.executor": "Run",
+    "JUnit.BookInfoTest.test_4.executor": "Run",
+    "JUnit.BooksManagerApplicationTests.test.executor": "Run",
+    "JUnit.BooksManagerApplicationTests.testList.executor": "Run",
+    "JUnit.BooksManagerApplicationTests.testSelectByOpenId.executor": "Run",
+    "JUnit.BooksManagerApplicationTests.testSpider.executor": "Run",
+    "JUnit.BooksManagerApplicationTests.test_2.executor": "Run",
+    "JUnit.BooksManagerApplicationTests.test_3.executor": "Run",
+    "JUnit.GetBookInfo.getBookInfo.executor": "Run",
+    "JUnit.SpringbootMybatisCrudApplicationTests.contextLoads.executor": "Run",
+    "JUnit.SpringbootMybatisCrudApplicationTests.testDelete.executor": "Run",
+    "JUnit.SpringbootMybatisCrudApplicationTests.testDeleteByIds.executor": "Run",
+    "JUnit.SpringbootMybatisCrudApplicationTests.testGetById.executor": "Run",
+    "JUnit.SpringbootMybatisCrudApplicationTests.testInsert.executor": "Run",
+    "JUnit.SpringbootMybatisCrudApplicationTests.testList.executor": "Run",
+    "JUnit.SpringbootMybatisCrudApplicationTests.testUpdate.executor": "Run",
+    "JUnit.SpringbootMybatisCrudApplicationTests.testUpdate_2.executor": "Run",
+    "JUnit.SpringbootWebTliasManagementApplicationTests.testGenJwt.executor": "Run",
+    "JUnit.SpringbootWebTliasManagementApplicationTests.testParseJwt.executor": "Run",
+    "JUnit.SpringbootWebTliasManagementApplicationTests.testUuid.executor": "Run",
+    "JUnit.TestEasyExcel_2.executor": "Run",
+    "JUnit.TestEasyExcel_2.test_1.executor": "Run",
+    "JUnit.TestEasyExcel_2.test_2.executor": "Run",
+    "JUnit.TestEasyExcel_2.test_3.executor": "Run",
+    "JUnit.TestEasyExcel_2.test_4.executor": "Run",
+    "JUnit.TestEasyExcel_2.test_5.executor": "Run",
+    "JUnit.TestEasyExcel_2.test_6.executor": "Run",
+    "JUnit.TestLendBook.test_1.executor": "Run",
+    "JUnit.TestToken.test_1.executor": "Run",
+    "JUnit.TestToken.test_2.executor": "Run",
+    "JUnit.TestToken.test_3.executor": "Run",
+    "JUnit.TestTokenApplicationTests.login.executor": "Run",
+    "JUnit.TestTokenApplicationTests.test_2.executor": "Run",
+    "JUnit.TestVideoController.printResult.executor": "Run",
+    "JUnit.TestVideoController.test.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.BooksManagerApplication.executor": "Run",
+    "Spring Boot.SpringbootMybatisApplication.executor": "Run",
+    "Spring Boot.SpringbootWebTliasManagementApplication.executor": "Run",
+    "Spring Boot.SpringbootmybatisApplication.executor": "Run",
+    "Spring Boot.TestSpringbootApplication (1).executor": "Run",
+    "Spring Boot.TestSpringbootApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/gth/Documents/springboot_demo/springboot_web_tlias_management/src/main/java/com/gth/utils",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/gth/Documents/springboot_demo/mybatis_demo_/src/main/java/com/gth/Main.java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.Demo.executor": "Run",
+    "应用程序.MybatisDemo.executor": "Run",
+    "应用程序.SpringbootWebTliasManagementApplication.executor": "Run",
+    "应用程序.TestEasyExcel_2.executor": "Run",
+    "应用程序.testToken.executor": "Run"
   }
-}</component>
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/springboot_web_tlias_management/src/main/java/com/gth/utils" />
@@ -430,76 +205,81 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootWebTliasManagementApplication">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gth.Demo" />
-      <module name="springboot_web_tlias_management" />
+  <component name="RunManager" selected="Spring Boot.BooksManagerApplication">
+    <configuration name="BookInfoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="booksManager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gth.*" />
+          <option name="PATTERN" value="com.gth.booksmanager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.gth.booksmanager" />
+      <option name="MAIN_CLASS_NAME" value="com.gth.booksmanager.BookInfoTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringbootWebTliasManagementApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gth.SpringbootWebTliasManagementApplication" />
-      <module name="springboot_web_tlias_management" />
+    <configuration name="BookInfoTest.test_2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="booksManager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gth.*" />
+          <option name="PATTERN" value="com.gth.booksmanager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringbootWebTliasManagementApplicationTests.testGenJwt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_web_tlias_management" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gth" />
-      <option name="MAIN_CLASS_NAME" value="com.gth.SpringbootWebTliasManagementApplicationTests" />
-      <option name="METHOD_NAME" value="testGenJwt" />
+      <option name="PACKAGE_NAME" value="com.gth.booksmanager" />
+      <option name="MAIN_CLASS_NAME" value="com.gth.booksmanager.BookInfoTest" />
+      <option name="METHOD_NAME" value="test_2(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringbootWebTliasManagementApplicationTests.testParseJwt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_web_tlias_management" />
+    <configuration name="BookInfoTest.test_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="booksManager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gth.*" />
+          <option name="PATTERN" value="com.gth.booksmanager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gth" />
-      <option name="MAIN_CLASS_NAME" value="com.gth.SpringbootWebTliasManagementApplicationTests" />
-      <option name="METHOD_NAME" value="testParseJwt" />
+      <option name="PACKAGE_NAME" value="com.gth.booksmanager" />
+      <option name="MAIN_CLASS_NAME" value="com.gth.booksmanager.BookInfoTest" />
+      <option name="METHOD_NAME" value="test_2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringbootWebTliasManagementApplicationTests.testUuid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_web_tlias_management" />
+    <configuration name="BookInfoTest.test_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="booksManager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gth.*" />
+          <option name="PATTERN" value="com.gth.booksmanager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gth" />
-      <option name="MAIN_CLASS_NAME" value="com.gth.SpringbootWebTliasManagementApplicationTests" />
-      <option name="METHOD_NAME" value="testUuid" />
+      <option name="PACKAGE_NAME" value="com.gth.booksmanager" />
+      <option name="MAIN_CLASS_NAME" value="com.gth.booksmanager.BookInfoTest" />
+      <option name="METHOD_NAME" value="test_3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookInfoTest.test_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="booksManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gth.booksmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gth.booksmanager" />
+      <option name="MAIN_CLASS_NAME" value="com.gth.booksmanager.BookInfoTest" />
+      <option name="METHOD_NAME" value="test_4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -560,6 +340,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSpringbootApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="test_springboot_login" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gth.test_springboot.TestSpringbootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestSpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="springboot_login" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gth.test_springboot.TestSpringbootApplication" />
@@ -567,15 +354,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTokenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="test_token" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gth.test_token.TestTokenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.SpringbootWebTliasManagementApplication" />
-        <item itemvalue="JUnit.SpringbootWebTliasManagementApplicationTests.testParseJwt" />
-        <item itemvalue="JUnit.SpringbootWebTliasManagementApplicationTests.testGenJwt" />
-        <item itemvalue="应用程序.Demo" />
-        <item itemvalue="JUnit.SpringbootWebTliasManagementApplicationTests.testUuid" />
+        <item itemvalue="JUnit.BookInfoTest.test_3" />
+        <item itemvalue="JUnit.BookInfoTest" />
+        <item itemvalue="JUnit.BookInfoTest.test_4" />
+        <item itemvalue="JUnit.BookInfoTest.test_2 (1)" />
+        <item itemvalue="JUnit.BookInfoTest.test_2" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -602,6 +404,19 @@
       <workItem from="1706449762343" duration="22073000" />
       <workItem from="1706686267745" duration="3502000" />
       <workItem from="1706768251308" duration="676000" />
+      <workItem from="1713700979107" duration="32548000" />
+      <workItem from="1713875211931" duration="49759000" />
+      <workItem from="1714228658128" duration="110000" />
+      <workItem from="1714228785668" duration="3193000" />
+      <workItem from="1714316987341" duration="12268000" />
+      <workItem from="1715184583072" duration="4000" />
+      <workItem from="1715940404136" duration="10552000" />
+      <workItem from="1716981473445" duration="4361000" />
+      <workItem from="1720321348992" duration="1210000" />
+      <workItem from="1721389865992" duration="239000" />
+      <workItem from="1721636469376" duration="25972000" />
+      <workItem from="1721900359748" duration="29629000" />
+      <workItem from="1722221525433" duration="9877000" />
     </task>
     <task id="LOCAL-00001" summary="balabala">
       <option name="closed" value="true" />
@@ -619,11 +434,31 @@
       <option name="project" value="LOCAL" />
       <updated>1713685999669</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="图书管理系统，缺过滤器未完成">
+      <option name="closed" value="true" />
+      <created>1713686798821</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713686798821</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+        <option value="GitHub.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

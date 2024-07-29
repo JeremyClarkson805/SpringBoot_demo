@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gth.booksmanager.mapper.ReaderMapper">
+    <insert id="insertReader" parameterType="map">
+        INSERT INTO reader(reader_id, openid, reader_name, id_number, telephone, reader_department, reader_type, demo)
+        VALUES (#{readerId}, #{openId}, #{readerName}, #{idNumber}, #{telephone}, #{readerDepartment}, #{readerType}, #{extract})
+    </insert>
+
+    <select id="selectUserByNameAndId" resultType="com.gth.booksmanager.pojo.User">
+        select * from user
+        <where>
+            1 = 1
+            <if test="readerName != null">and user_name = #{readerName}</if>
+            <if test="idno != null">and idno = #{idno}</if>
+        </where>
+    </select>
+
+</mapper>

@@ -11,8 +11,9 @@ public class Reader {
     private int readerId;
     private String openId;
     private String readerName;
+    private String idNumber;
     private String telephone;
     private String readerDepartment;
-    private String readerType;
+    private int readerType;
     private String extract;
 }

@@ -21,4 +21,17 @@ public class Book {
     private float bookStar;
     private int bookLookedNum;
     private String bookNum;
+    private String bookDetail;
+
+    public Book(String bookName, String bookAuthor, String publishHouse, String publicationDate, String bookPhoto, String isbn, String bookClassification, String bookDetail) {
+        this.bookName = bookName;
+        this.bookAuthor = bookAuthor;
+        this.publishHouse = publishHouse;
+        this.publicationDate = publicationDate;
+        this.bookPhoto = bookPhoto;
+        this.isbn = isbn;
+        this.bookClassification = bookClassification;
+        this.bookDetail = bookDetail;
+    }
 }
+

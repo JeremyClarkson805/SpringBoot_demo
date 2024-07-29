@@ -4,16 +4,95 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.gth.booksmanager.mapper.BookMapper">
     <select id="list" resultType="com.gth.booksmanager.pojo.Book">
-        select * from book
+        select book_id,book_name,book_author,publish_house,register_date,publication_date,
+        book_photo,isbn,book_classification,collect_num,book_star,book_looked_num,book_num from book
         <where>
-            <if test="bookName != null"> book_name like concat('%',#{bookName},'%')</if>
+            <if test="bookName != null">book_name like concat('%',#{bookName},'%')</if>
             <if test="bookClassification != null">or book_classification = #{bookClassification}</if>
             <if test="isbn != null">or isbn = #{isbn}</if>
+            <if test="bookId != null">or book_id=#{bookId}</if>
         </where>
         <choose>
             <when test="selectType == 'register_date'">order by register_date desc</when>
             <when test="selectType == 'book_looked_num'">order by book_looked_num desc</when>
         </choose>
-
     </select>
+
+    <insert id="insertBook_1">
+        insert into book(book_name, book_author, publish_house, register_date, publication_date, isbn,
+                         book_classification, book_num, book_photo, book_detail, collect_num, book_star,
+                         book_looked_num)
+        values (#{bookName}, #{bookAuthor}, #{publishHouse}, curdate(), #{publicationDate}, #{isbn},
+                #{bookClassification}, 1, #{bookPhoto}, #{bookDetail}, 0, 3.0, 0)
+    </insert>
+
+    <update id="updateBook_1">
+        update book
+        <set>
+            <if test="bookName != null">book_name = #{bookName},</if>
+            <if test="bookAuthor != null">book_author = #{bookAuthor},</if>
+            <if test="publishHouse != null">publish_house = #{publishHouse},</if>
+            <if test="registerDate != null">register_date = #{registerDate},</if>
+            <if test="publicationDate != null">publication_date = #{publicationDate},</if>
+            <if test="bookPhoto != null">book_photo = #{bookPhoto},</if>
+            <if test="isbn != null">isbn = #{isbn},</if>
+            <if test="bookClassification != null">book_classification = #{bookClassification},</if>
+            <if test="collectNum != null">collect_num = #{collectNum},</if>
+            <if test="bookStar != null">book_star = #{bookStar},</if>
+            <if test="bookLookedNum != null">book_looked_num = #{bookLookedNum},</if>
+            <if test="bookNum != null">book_num = #{bookNum},</if>
+            <if test="bookDetail != null">book_detail = #{bookDetail}</if>
+        </set>
+        <where>
+            book_name = #{bookName}
+        </where>
+    </update>
+
+    <update id="updateBook_2">
+        update book
+        <set>
+            <if test="bookName != null">book_name = #{bookName},</if>
+            <if test="bookAuthor != null">book_author = #{bookAuthor},</if>
+            <if test="publishHouse != null">publish_house = #{publishHouse},</if>
+            <if test="registerDate != null">register_date = #{registerDate},</if>
+            <if test="publicationDate != null">publication_date = #{publicationDate},</if>
+            <if test="bookPhoto != null">book_photo = #{bookPhoto},</if>
+            <if test="isbn != null">isbn = #{isbn},</if>
+            <if test="bookClassification != null">book_classification = #{bookClassification},</if>
+            <if test="collectNum != null">collect_num = #{collectNum},</if>
+            <if test="bookStar != null">book_star = #{bookStar},</if>
+            <if test="bookLookedNum != null">book_looked_num = #{bookLookedNum},</if>
+            <if test="bookNum != null">book_num = #{bookNum},</if>
+            <if test="bookDetail != null">book_detail = #{bookDetail}</if>
+        </set>
+        <where>
+            isbn = #{isbn}
+        </where>
+    </update>
+
+
+    <insert id="insertBook_2">
+        insert into inventory (book_uuid, book_id, book_status)
+        values (uuid(), #{bookId}, 0)
+    </insert>
+
+    <insert id="insertLendBook">
+        insert into borrow(book_uuid,book_id, reader_id, borrow_date) values (#{UUID},#{bookId},#{readerId},now());
+    </insert>
+
+    <update id="returnLendBook">
+        UPDATE borrow
+        SET return_date = NOW()
+        WHERE num = (
+            SELECT num
+            FROM (
+                     SELECT num
+                     FROM borrow
+                     WHERE book_uuid = #{UUID}
+                     ORDER BY num DESC
+                     LIMIT 1
+                 ) AS temp
+        )
+    </update>
+
 </mapper>
