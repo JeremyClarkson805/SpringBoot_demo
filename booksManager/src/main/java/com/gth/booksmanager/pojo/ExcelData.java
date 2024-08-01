@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 @EqualsAndHashCode
 public class ExcelData {
     private String bookId;
+    private String UUID;
     private String bookName;
     private String bookAuthor;
     private String publishHouse;

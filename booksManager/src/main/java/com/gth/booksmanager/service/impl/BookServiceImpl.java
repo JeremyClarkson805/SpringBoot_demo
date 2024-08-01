@@ -12,6 +12,7 @@ import com.gth.booksmanager.mapper.InventoryMapper;
 import com.gth.booksmanager.mapper.ReaderMapper;
 import com.gth.booksmanager.pojo.*;
 import com.gth.booksmanager.service.BookService;
+import com.gth.booksmanager.service.ReaderService;
 import com.gth.booksmanager.utils.JwtUtils;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
@@ -33,9 +34,10 @@ public class BookServiceImpl implements BookService {
     private ReaderMapper readerMapper;
     @Autowired
     private InventoryMapper inventoryMapper;
+    @Autowired
     private IsbnService isbnService;
     @Autowired
-    private ReaderServiceImpl readerServiceImpl;
+    private ReaderService readerService;
 
     public Book selectById(String id) { return bookMapper.selectById(id); }
 
@@ -137,11 +139,10 @@ public class BookServiceImpl implements BookService {
     public Result addBookOnlyByISBN(String isbn, HttpServletRequest request) {
         IsbnService isbnService = new IsbnService();
         JSONObject data = null;
-        if (!readerServiceImpl.IsManager(request)) {//检查是否具有管理员权限
+        if (!readerService.IsManager(request)) {//检查是否具有管理员权限
             return Result.error("Illegal manager");
         }
-        Book book = new Book();
-        book = bookMapper.getBookByISBN(isbn);
+        Book book = bookMapper.getBookByISBN(isbn);
         if (book != null) {//已经添加过同样的书籍
             bookMapper.insertBook_2(book.getBookId());//往库存库中新增
             bookMapper.plusBookNum(book.getBookId());
@@ -152,7 +153,7 @@ public class BookServiceImpl implements BookService {
         } catch (Exception e) {
             return Result.error("parse error");
         }
-
+        book = new Book();
         book.setIsbn(isbn);
         book.setBookName(data.getString("bookName"));
         book.setBookAuthor(data.getString("author"));
@@ -168,7 +169,7 @@ public class BookServiceImpl implements BookService {
 
     @Override
     public Result addBookByExcel(MultipartFile file, HttpServletRequest request) {
-        if (!readerServiceImpl.IsManager(request)) {//检查是否具有管理员权限
+        if (!readerService.IsManager(request)) {//检查是否具有管理员权限
             return Result.error("Illegal manager");
         }
         String originalFileName = file.getOriginalFilename();//获取文件原始名称
@@ -194,6 +195,8 @@ public class BookServiceImpl implements BookService {
                         continue;
                     }
                     Book b = new Book();
+                    String uuid = excelData.getUUID();
+                    log.info("uuid:" + uuid);
 //                    System.out.println(excelData.toString());
                     b.setBookId(excelData.getBookId());
                     b.setBookName(excelData.getBookName());
@@ -204,8 +207,14 @@ public class BookServiceImpl implements BookService {
                     b.setIsbn(excelData.getIsbn());
                     b.setBookClassification(excelData.getBookClassification());
                     b.setBookDetail(excelData.getBookDetail());
-                    this.addBook_1(b);
-                    log.info("插入" + b.getBookName() + "成功");
+                    if (uuid == null) {
+                        this.addBook_1(b);
+                        log.info("插入" + b.getBookName() + "成功");
+                    } if (uuid != null) {
+                        bookMapper.insertBook_1(b);
+                        inventoryMapper.insertWithUUID(uuid, bookMapper.getBookByISBN(excelData.getIsbn()).getBookId());
+                    }
+
                 } catch (Exception e) {
                     System.out.println("插入" + excelData.getBookName() + "错误");
                 }
@@ -214,5 +223,129 @@ public class BookServiceImpl implements BookService {
         return Result.success();
     }
 
+    public PageBean getLendOutBook(Integer page,Integer pageSize){
+        PageHelper.startPage(page,pageSize);
+        List<LendingBook> lendingList = bookMapper.getLendingBook();
+        Page<LendingBook> p = (Page<LendingBook>) lendingList;
+        return new PageBean(p.getTotal(),p.getResult());
+
+    }
+
+    public Result updateBook(Book book, HttpServletRequest request) {
+        if (!readerService.IsManager(request)) {//检查是否具有管理员权限
+            return Result.error("Illegal manager");
+        }
+        bookMapper.updateBook_2(book);
+        return Result.success();
+    }
+
+    public Result addBookByUUIDAndIsbn(String uuid, String isbn, HttpServletRequest request) {
+        IsbnService isbnService = new IsbnService();
+        JSONObject data = null;
+        if (!readerService.IsManager(request)) {//检查是否具有管理员权限
+            return Result.error("Illegal manager");
+        }
+        Book book = bookMapper.getBookByISBN(isbn);
+        if (book != null) {//已经添加过同样的书籍
+            bookMapper.insertBook_2(book.getBookId());//往库存库中新增
+            bookMapper.plusBookNum(book.getBookId());
+            return Result.success();
+        }
+        try {
+            data = isbnService.getBookInfo(isbn);
+            if (data == null) {
+                return Result.error("parse error");
+            }
+        } catch (Exception e) {
+            return Result.error("parse error");
+        }
+        book = new Book();
+        book.setIsbn(isbn);
+        book.setBookName(data.getString("bookName"));
+        book.setBookAuthor(data.getString("author"));
+        book.setPublishHouse(data.getString("press"));
+        book.setPublicationDate(data.getString("pressDate"));
+        book.setBookPhoto(data.getString("pictures").replace("[\"","").replace("\"]",""));
+        book.setBookClassification(data.getString("clcName"));
+        book.setBookDetail(data.getString("bookDesc"));
+        log.info(book.toString());
+        try {
+            bookMapper.insertBook_1(book);
+            inventoryMapper.insertWithUUID(uuid, bookMapper.getBookByISBN(isbn).getBookId());
+            return Result.success();
+        } catch (Exception e) {
+            return Result.error(e.getMessage());
+        }
+    }
+
+    @Override
+    public Result fillBookInfo(HttpServletRequest request) {
+        if (!readerService.IsManager(request)) {//检查是否具有管理员权限
+            return Result.error("Illegal manager");
+        }
+        IsbnService isbnService = new IsbnService();
+        log.info("正在查找并填充相关信息");
+        List<Book> bookList= bookMapper.getMissingBook();
+        for (Book book : bookList) {
+            JSONObject data = isbnService.getBookInfo(book.getIsbn());
+            if (data == null) {
+                return Result.error("接口额度达当日极限，请稍后再试");
+            } if (book.getBookName() == "") {
+                try {
+                    book.setBookName(data.getString("bookName"));
+                } catch (Exception e) {
+                    log.info("暂无相关信息");
+                }
+            } if (book.getBookAuthor() == "") {
+                try {
+                    book.setBookAuthor(data.getString("author"));
+                } catch (Exception e) {
+                    log.info("暂无相关信息");
+                }
+            } if (book.getPublishHouse() == "") {
+                try {
+                    book.setPublishHouse(data.getString("press"));
+                } catch (Exception e) {
+                    log.info("暂无相关信息");
+                }
+            } if (book.getPublicationDate() == "") {
+                try {
+                    book.setPublicationDate(data.getString("pressDate"));
+                } catch (Exception e) {
+                    log.info("暂无相关信息");
+                }
+            } if (book.getBookPhoto() == "") {
+                try {
+                    book.setBookPhoto(data.getString("pictures").replace("[\"","").replace("\"]",""));
+                } catch (Exception e) {
+                    log.info("暂无相关信息");
+                }
+            } if (book.getBookClassification() == "") {
+                try {
+                    book.setBookClassification(data.getString("clcName"));
+                } catch (Exception e) {
+                    log.info("暂无相关信息");
+                }
+            } if (book.getBookDetail() == "") {
+                try {
+                    book.setBookDetail(data.getString("bookDesc"));
+                } catch (Exception e) {
+                    log.info("暂无相关信息");
+                }
+            }
+            try {
+                bookMapper.updateBook_2(book);
+            } catch (Exception e) {
+                log.info("Error updating" + book.getIsbn());
+                continue;
+            }
+            try {
+                Thread.currentThread().sleep(2000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
+        return Result.success();
+    }
 
 }

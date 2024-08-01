@@ -23,5 +23,18 @@ public interface BookService{
 
     Result addBookOnlyByISBN(String isbn, HttpServletRequest request);
 
+    //通过Excel表批量导入书
     Result addBookByExcel(MultipartFile file, HttpServletRequest request);
+
+    //分页查询借出的书
+    PageBean getLendOutBook(Integer page,Integer pageSize);
+
+    //更新书籍信息
+    Result updateBook(Book book, HttpServletRequest request);
+
+    //通过ISBN导入书并指定唯一编号
+    public Result addBookByUUIDAndIsbn(String uuid, String isbn, HttpServletRequest request);
+
+    //自动填充缺失的书本信息
+    public Result fillBookInfo(HttpServletRequest request);
 }

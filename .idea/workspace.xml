@@ -4,56 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79d224b9-a1cd-4a3a-aaa3-6d459013699e" name="更改" comment="图书管理系统，缺过滤器未完成">
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/common/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/common/IsbnService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/filter/LoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/mapper/InventoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/ExcelData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/InventoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/impl/InventoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/utils/JwtUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/com/gth/booksmanager/mapper/InventoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/com/gth/booksmanager/mapper/ReaderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/image/5b436c35-839d-4fc9-a7f6-640177c80e89.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/image/b6a50d24-e2f2-4333-9f1c-4f9b3d4d32a9.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/image/c94776a8-b57e-4849-903e-d45e542e397c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/image/dc06b626-296e-4cdb-9828-ff54ac7799ba.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/static/633e6df1-43c3-405a-9305-2fc9ee3cbc6a.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/static/f97af40d-4b66-45b3-9cda-8f88e80e5d47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/static/testExcel.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/GetBookInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/TestEasyExcel_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/TestExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/TestLendBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/TestToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/TestVideoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/testUserInfo.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booksManager/testUserInfo.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_web_tlias_management/src/test/java/com/gth/testToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="79d224b9-a1cd-4a3a-aaa3-6d459013699e" name="更改" comment="完成至通过上传Excel表批量添加书籍功能，还有扫码添加书籍，借书，还书等">
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/common/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/ExcelData_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/LendingBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/0209a104-0b53-404a-a3d4-9729d7de4f02.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/07b83404-4543-4ba9-af99-0265316719cb.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/0e6e6a72-0c0d-4a75-af29-f8db63d8e306.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/1fef5fe7-5c1f-469e-bb37-e73772b28b8c.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/222d50b7-06f9-4f00-887d-815f028c917c.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/29936cea-d4d7-45c0-bb5e-6acc46f80b30.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/344f5284-f5b9-447f-940c-6e27e94b63b7.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/501a1b34-406c-475b-969e-7b0f47e3304e.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/535ed5ac-e34f-42f3-ac4c-fb2b632f9f51.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/57238d1f-b160-4478-a728-24337b9594e9.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/5f33eaba-d1d8-4de4-929f-dea560705974.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/691faa23-2c93-4c39-a8a7-5f3dadd8f984.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/826e36fe-d8ca-4d98-a40c-1a13a5932f05.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/9f3a4e84-d90a-49f4-9638-b039a7e14202.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/9f5aede9-eab3-4c0b-b3e9-01b91cd20272.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/a69e4cd1-8592-4ef2-b175-b678f2a46320.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/acb24097-b410-4329-a803-726ead3c4d96.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/ade08f64-abaf-4d86-8a94-24f060d648d1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/c3290b26-73af-4309-99af-b75ac730f38d.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/c982cd81-7c67-4def-a0c4-1fbb77f849d2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/cc78cca1-b9d7-4035-bb03-24852edd28be.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/de8704bd-9b98-4d0f-9713-dc5b8e4d8aa4.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/e5040fa9-aea0-42b8-8533-72bee9c2219e.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/eaab2459-04c7-4a2d-933f-c37e8ca2a81c.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/f3e854df-719d-4ab6-bdfb-de7672b3fdfb.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/f9fb0ed4-6da6-4b0f-bf5a-edbf66f11388.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/file/fd4a528a-ef9d-46e7-a6cd-fce576ac7f24.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/image/1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/image/5989b007-997a-482f-aea2-2187cd48fb75.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/main/resources/static/~$testExcel.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/AddPhoto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booksManager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/BooksManagerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/BooksManagerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/mapper/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/mapper/BookMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/mapper/ReaderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/mapper/ReaderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/mapper/InventoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/mapper/InventoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/ExcelData.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/pojo/ExcelData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/BookService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/ReaderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/ReaderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/impl/BookServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/impl/ReaderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/java/com/gth/booksmanager/service/impl/ReaderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booksManager/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booksManager/src/main/resources/com/gth/booksmanager/mapper/BookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/main/resources/com/gth/booksmanager/mapper/BookMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/BooksManagerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/booksManager/src/test/java/com/gth/booksmanager/BooksManagerApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +106,8 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "HTTP 请求.SpringbootWebTliasManagementApplication | #1.executor": "Run",
     "HTTP 请求.generated-requests | #3.executor": "Run",
+    "JUnit.AddPhoto.test_1.executor": "Run",
+    "JUnit.AddPhoto.test_2.executor": "Run",
     "JUnit.BookInfoTest.executor": "Run",
     "JUnit.BookInfoTest.test_1.executor": "Run",
     "JUnit.BookInfoTest.test_2 (1).executor": "Run",
@@ -206,6 +204,38 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.BooksManagerApplication">
+    <configuration name="AddPhoto.test_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="booksManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gth.booksmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gth.booksmanager" />
+      <option name="MAIN_CLASS_NAME" value="com.gth.booksmanager.AddPhoto" />
+      <option name="METHOD_NAME" value="test_1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddPhoto.test_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="booksManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gth.booksmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gth.booksmanager" />
+      <option name="MAIN_CLASS_NAME" value="com.gth.booksmanager.AddPhoto" />
+      <option name="METHOD_NAME" value="test_2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookInfoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="booksManager" />
       <extension name="coverage">
@@ -217,38 +247,6 @@
       <option name="PACKAGE_NAME" value="com.gth.booksmanager" />
       <option name="MAIN_CLASS_NAME" value="com.gth.booksmanager.BookInfoTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookInfoTest.test_2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="booksManager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gth.booksmanager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gth.booksmanager" />
-      <option name="MAIN_CLASS_NAME" value="com.gth.booksmanager.BookInfoTest" />
-      <option name="METHOD_NAME" value="test_2(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookInfoTest.test_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="booksManager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gth.booksmanager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gth.booksmanager" />
-      <option name="MAIN_CLASS_NAME" value="com.gth.booksmanager.BookInfoTest" />
-      <option name="METHOD_NAME" value="test_2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -363,11 +361,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddPhoto.test_2" />
+        <item itemvalue="JUnit.AddPhoto.test_1" />
         <item itemvalue="JUnit.BookInfoTest.test_3" />
         <item itemvalue="JUnit.BookInfoTest" />
         <item itemvalue="JUnit.BookInfoTest.test_4" />
-        <item itemvalue="JUnit.BookInfoTest.test_2 (1)" />
-        <item itemvalue="JUnit.BookInfoTest.test_2" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +414,8 @@
       <workItem from="1721389865992" duration="239000" />
       <workItem from="1721636469376" duration="25972000" />
       <workItem from="1721900359748" duration="29629000" />
-      <workItem from="1722221525433" duration="9877000" />
+      <workItem from="1722221525433" duration="14450000" />
+      <workItem from="1722310724978" duration="29941000" />
     </task>
     <task id="LOCAL-00001" summary="balabala">
       <option name="closed" value="true" />
@@ -442,7 +441,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713686798821</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="完成至通过上传Excel表批量添加书籍功能，还有扫码添加书籍，借书，还书等">
+      <option name="closed" value="true" />
+      <created>1722246094388</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722246094388</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +472,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -475,7 +494,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="balabala" />
     <MESSAGE value="图书管理系统，缺过滤器未完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="图书管理系统，缺过滤器未完成" />
+    <MESSAGE value="完成至通过上传Excel表批量添加书籍功能，还有扫码添加书籍，借书，还书等" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成至通过上传Excel表批量添加书籍功能，还有扫码添加书籍，借书，还书等" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

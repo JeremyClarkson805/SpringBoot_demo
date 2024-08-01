@@ -2,6 +2,8 @@ package com.gth.booksmanager.mapper;
 
 
 import com.gth.booksmanager.pojo.Book;
+import com.gth.booksmanager.pojo.LendingBook;
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
@@ -55,4 +57,18 @@ public interface BookMapper {
 
     //更新还的书的时间
     void returnLendBook(String UUID);
+
+    //返回书籍名称，作者，借阅人名字，借阅日期
+    List<LendingBook> getLendingBook();
+
+    @Delete("delete from book where book_id = #{bookId}")
+    void deleteBook(String bookId);
+
+    @Select("select distinct book_classification from book;")
+    public List<String> getBookType();
+
+    @Select("select isbn from book where book_photo is null")
+    public List<String> getNoPhotoBook();
+
+    public List<Book> getMissingBook();
 }

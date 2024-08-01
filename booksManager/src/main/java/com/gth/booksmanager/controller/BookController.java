@@ -5,9 +5,11 @@ import com.alibaba.excel.read.listener.PageReadListener;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.gth.booksmanager.mapper.BookMapper;
+import com.gth.booksmanager.mapper.InventoryMapper;
 import com.gth.booksmanager.mapper.ReaderMapper;
 import com.gth.booksmanager.pojo.*;
 import com.gth.booksmanager.service.BookService;
+import com.gth.booksmanager.service.ReaderService;
 import com.gth.booksmanager.utils.JwtUtils;
 import io.jsonwebtoken.Claims;
 import jakarta.servlet.http.HttpServletRequest;
@@ -31,6 +33,10 @@ public class BookController {
     private BookService bookService;
     @Autowired
     private ReaderMapper readerMapper;
+    @Autowired
+    private ReaderService readerService;
+    @Autowired
+    private InventoryMapper inventoryMapper;
 
 //    @GetMapping("/{id}")
 //    public Result getById(@PathVariable String id){
@@ -109,8 +115,81 @@ public class BookController {
 
     @PostMapping("/addByExcel")
     public Result addBookByExcel(MultipartFile file, HttpServletRequest request){
-
         return bookService.addBookByExcel(file, request);
+    }
 
+    @GetMapping("/getLendOutBook")
+    public Result getLendOutBook(@RequestParam(defaultValue = "1") Integer page,//通过@RequestParam的defaultValue来设置参数的默认值
+                                 @RequestParam(defaultValue = "1") Integer pageSize,
+                                 HttpServletRequest request){
+        if (!readerService.IsManager(request)) {//检查是否具有管理员权限
+            return Result.error("Illegal manager");
+        }
+        PageBean pageBean = bookService.getLendOutBook(page,pageSize);//selectType表示按照什么排，传数据库字段，按倒序排，传book_looked_num表按看过的人数排倒序，传register_date表按书本上架的日期排倒序
+        return Result.success(pageBean);
+    }
+
+    @PostMapping("/uploadImage")
+    public Result uploadImage(String bookName, String ISBN, MultipartFile image, HttpServletRequest request) throws Exception {
+        if (!readerService.IsManager(request)) {//检查是否具有管理员权限
+            return Result.error("Illegal manager");
+        }
+        String originalFileName = image.getOriginalFilename();//获取文件原始名称
+        int index = originalFileName.lastIndexOf(".");
+        String extName = originalFileName.substring(index);
+        String newFileName = UUID.randomUUID().toString() + extName;//构造唯一文件名
+        newFileName = "/Users/gth/Documents/springboot_demo/booksManager/src/main/resources/image/"+newFileName;
+        image.transferTo(new File(newFileName));
+        log.info("Uploading,FileName:{},Path:{}", bookName, newFileName);
+        Book book = new Book();
+        book.setIsbn(ISBN);
+        book.setBookPhoto(newFileName);
+        return bookService.updateBook(book,request);
+    }
+
+    @PostMapping("Update")
+    public Result updateBook(String bookName,String bookAuthor,String publishHouse,
+                             String publicationDate,String isbn,String bookClassification,
+                             String bookPhoto,String bookDetail, HttpServletRequest request) {
+        Book book = new Book();
+        book.setBookName(bookName);
+        book.setBookAuthor(bookAuthor);
+        book.setPublishHouse(publishHouse);
+        book.setPublicationDate(publicationDate);
+        book.setIsbn(isbn);
+        book.setBookClassification(bookClassification);
+        book.setBookPhoto(bookPhoto);
+        book.setBookDetail(bookDetail);
+        log.info("更新书本信息："+book.toString());
+        return bookService.updateBook(book,request);
+    }
+
+    @DeleteMapping()
+    public Result deleteBook(String bookId, HttpServletRequest request) {
+        if (!readerService.IsManager(request)) {//检查是否具有管理员权限
+            return Result.error("Illegal manager");
+        }
+        try {
+            bookMapper.deleteBook(bookId);
+            inventoryMapper.deleteBook(bookId);
+            return Result.success();
+        } catch (Exception e) {
+            return Result.error(e.getMessage());
+        }
+    }
+
+    @PutMapping("/single")
+    public Result addBookByUUIDAndIsbn(String uuid, String isbn, HttpServletRequest request) {
+        return bookService.addBookByUUIDAndIsbn(uuid, isbn, request);
+    }
+
+    @GetMapping("/bookType")
+    public Result getBookType(){
+        return Result.success(bookMapper.getBookType());
+    }
+
+    @GetMapping("/fill")
+    public Result fillBookInfo(HttpServletRequest request){
+        return bookService.fillBookInfo(request);
     }
 }

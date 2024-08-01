@@ -1,6 +1,7 @@
 package com.gth.booksmanager.service.impl;
 
 import com.gth.booksmanager.mapper.ReaderMapper;
+import com.gth.booksmanager.pojo.Book;
 import com.gth.booksmanager.pojo.Reader;
 import com.gth.booksmanager.pojo.Result;
 import com.gth.booksmanager.service.ReaderService;
@@ -33,4 +34,5 @@ public class ReaderServiceImpl implements ReaderService {
         }
         else return false;
     }
+
 }

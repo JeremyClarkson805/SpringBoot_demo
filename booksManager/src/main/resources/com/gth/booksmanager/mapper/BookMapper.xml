@@ -95,4 +95,32 @@
         )
     </update>
 
+    <select id="getLendingBook" resultType="com.gth.booksmanager.pojo.LendingBook">
+        SELECT
+            book.book_name,
+            book.book_author,
+            borrow.book_uuid,
+            book.book_photo,
+            reader.reader_name,
+            borrow.borrow_date
+        FROM
+            borrow
+                JOIN
+            book ON borrow.book_id = book.book_id
+                JOIN
+            reader ON borrow.reader_id = reader.reader_id
+    </select>
+
+    <select id="getMissingBook" resultType="com.gth.booksmanager.pojo.Book">
+        select * from book
+        where book_name is null or
+            book_author is null or
+            publish_house is null or
+            publication_date is null or
+            book_photo is null or
+            book_classification is null or
+            book_detail is null
+    </select>
+
+
 </mapper>
